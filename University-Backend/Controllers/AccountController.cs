@@ -76,12 +76,5 @@ namespace University_Backend.Controllers
                 throw new Exception($"Get token error: {e.Message}");
             }
         }
-
-        [HttpGet]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator")]
-        public IActionResult GetUsers()
-        {
-            return Ok(Logins);
-        }
     }
 }

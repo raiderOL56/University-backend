@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University-Backend", "Unive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSnippets", "LinqSnippets\LinqSnippets.csproj", "{6F5423B8-F4BA-4767-A089-6E0BCC59C0CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalAPI", "InternationalAPI\InternationalAPI.csproj", "{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +46,17 @@ Global
 		{6F5423B8-F4BA-4767-A089-6E0BCC59C0CC}.Release|x64.Build.0 = Release|Any CPU
 		{6F5423B8-F4BA-4767-A089-6E0BCC59C0CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{6F5423B8-F4BA-4767-A089-6E0BCC59C0CC}.Release|x86.Build.0 = Release|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Debug|x64.Build.0 = Debug|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Release|x64.Build.0 = Release|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA63BAD4-A9DE-4007-82E8-56BA326ED3C0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

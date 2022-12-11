@@ -40,7 +40,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 // 4.- Here add custom services
 builder.Services.AddScoped<IStudentService, StudentService>();
-builder.Services.AddJwtTokenServices(builder.Configuration); // 7.- Add Service of JWT Authorization
+builder.Services.AddJwtTokenServices(configuration); // 7.- Add Service of JWT Authorization
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("UserOnlyPolicy", policy => policy.RequireClaim("UserOnly", "User1"));

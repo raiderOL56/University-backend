@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using University_Backend.Data;
@@ -18,6 +20,7 @@ namespace University_Backend.Controllers_
 
         // GET: https://localhost:7262/api/Users/
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator")]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             if (_context.Users == null)

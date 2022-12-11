@@ -13,7 +13,6 @@ namespace University_Backend.Services
         public static void AddJwtTokenServices(this IServiceCollection services, IConfiguration configuration)
         {
             // Add JwtSettings 
-            configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
             JWTsettings jwtSettings = new JWTsettings();
             configuration.Bind("JsonWebTokenKeys", jwtSettings);
 
