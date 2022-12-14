@@ -3,7 +3,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
-namespace VersionControl
+namespace FakeStoreAPI.Helpers
 {
     public class ConfigureSwaggerOptions : IConfigureNamedOptions<SwaggerGenOptions>
     {
@@ -17,9 +17,7 @@ namespace VersionControl
         {
             // Add Swagger Documentation for each API version
             foreach (ApiVersionDescription description in _provider.ApiVersionDescriptions)
-            {
                 options.SwaggerDoc(description.GroupName, CreateVersionInfo(description));
-            }
         }
         public void Configure(string name, SwaggerGenOptions options)
         {
@@ -29,13 +27,13 @@ namespace VersionControl
         {
             OpenApiInfo openApiInfo = new OpenApiInfo()
             {
-                Title = "My .Net API resful",
+                Title = "Bienvenido a FakeStoreAPI",
                 Version = description.ApiVersion.ToString(),
-                Description = "This is my first API Versioning Control",
-                Contact = new OpenApiContact
+                Description = "Esta API fue desarrollada para consumir los servicios de FakeStoreAPI",
+                Contact = new OpenApiContact()
                 {
-                    Email = "test@prueba.com",
-                    Name = "Martin"
+                    Email = "martin@prueba.com",
+                    Name = "Martin Carrera Vázquez"
                 }
             };
 

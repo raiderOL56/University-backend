@@ -29,33 +29,6 @@
       }
     },
     {
-      "name": "UniversityBackend - Brave Browser",
-      "type": "coreclr",
-      "request": "launch",
-      "preLaunchTask": "build_UniversityBackend",
-      "requireExactSource": false,
-      "program": "${workspaceFolder}/University-Backend/bin/Debug/net6.0/University-Backend.dll",
-      "args": [],
-      "cwd": "${workspaceFolder}",
-      "stopAtEntry": false,
-      "internalConsoleOptions": "openOnSessionStart",
-      "launchBrowser": {
-        "enabled": true,
-        "args": "${auto-detect-url}",
-        "windows": {
-          "command": "cmd.exe",
-          "args": "/C start \"\" \"C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe\" ${auto-detect-url}/Swagger"
-        }
-      },
-      "env": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_URLS": "http://localhost:7262"
-      },
-      "sourceFileMap": {
-        "/Views": "${workspaceFolder}/Views"
-      }
-    },
-    {
       "name": "InternationalAPI - Microsoft Edge",
       "type": "coreclr",
       "request": "launch",
@@ -72,33 +45,6 @@
         "windows": {
           "command": "cmd.exe",
           "args": "/C start \"\" \"C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe\" ${auto-detect-url}/Swagger"
-        }
-      },
-      "env": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_URLS": "http://localhost:7262"
-      },
-      "sourceFileMap": {
-        "/Views": "${workspaceFolder}/Views"
-      }
-    },
-    {
-      "name": "InternationalAPI - Brave Browser",
-      "type": "coreclr",
-      "request": "launch",
-      "preLaunchTask": "build_InternationalAPI",
-      "requireExactSource": false,
-      "program": "${workspaceFolder}/InternationalAPI/bin/Debug/net6.0/InternationalAPI.dll",
-      "args": [],
-      "cwd": "${workspaceFolder}",
-      "stopAtEntry": false,
-      "internalConsoleOptions": "openOnSessionStart",
-      "launchBrowser": {
-        "enabled": true,
-        "args": "${auto-detect-url}",
-        "windows": {
-          "command": "cmd.exe",
-          "args": "/C start \"\" \"C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe\" ${auto-detect-url}/Swagger"
         }
       },
       "env": {
@@ -137,12 +83,12 @@
       }
     },
     {
-      "name": "VersionControl - Brave Browser",
+      "name": "FakeStoreAPI - Microsoft Edge",
       "type": "coreclr",
       "request": "launch",
-      "preLaunchTask": "build_VersionControl",
+      "preLaunchTask": "build_FakeStoreAPI",
       "requireExactSource": false,
-      "program": "${workspaceFolder}/VersionControl/bin/Debug/net6.0/VersionControl.dll",
+      "program": "${workspaceFolder}/FakeStoreAPI/bin/Debug/net6.0/FakeStoreAPI.dll",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
@@ -152,7 +98,7 @@
         "args": "${auto-detect-url}",
         "windows": {
           "command": "cmd.exe",
-          "args": "/C start \"\" \"C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe\" ${auto-detect-url}/Swagger"
+          "args": "/C start \"\" \"C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe\" ${auto-detect-url}/Swagger"
         }
       },
       "env": {
@@ -162,6 +108,6 @@
       "sourceFileMap": {
         "/Views": "${workspaceFolder}/Views"
       }
-    }
+    },
   ]
 }
