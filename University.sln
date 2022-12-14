@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalAPI", "Interna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionControl", "VersionControl\VersionControl.csproj", "{0D83F3CB-C3AA-469D-8DF8-435ECBBB9FDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStoreAPI", "FakeStoreAPI\FakeStoreAPI.csproj", "{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +74,17 @@ Global
 		{0D83F3CB-C3AA-469D-8DF8-435ECBBB9FDE}.Release|x64.Build.0 = Release|Any CPU
 		{0D83F3CB-C3AA-469D-8DF8-435ECBBB9FDE}.Release|x86.ActiveCfg = Release|Any CPU
 		{0D83F3CB-C3AA-469D-8DF8-435ECBBB9FDE}.Release|x86.Build.0 = Release|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Debug|x64.Build.0 = Debug|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Release|x64.Build.0 = Release|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{46ED48E5-3FA9-4E41-93DC-5ED3B4B133B9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
